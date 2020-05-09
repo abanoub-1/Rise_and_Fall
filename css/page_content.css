@@ -5,4 +5,17 @@
  */
 body {
   padding-top: 56px;
+  background-color: #F8F9FA;
+}
+
+@media (max-width:700px){
+  .col-md-4{
+    margin-top: 0em;
+  }
+
+}
+@media (min-width:1000px){
+  .col-md-4{
+    margin-top: 20em;
+  }
 }
